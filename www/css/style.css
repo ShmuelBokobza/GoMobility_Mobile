@@ -3,18 +3,19 @@ html, body{
 }
 
 .header{
-
-background-color: #7ed2ec;
+	background-color: #fff !important;
 }
 
-.ligne{
-	height: 0.1em;
-	background-color: #7ed2ec;
-}
+	.header >h3{
+		color: #7ed2ec;
+	}
 
-.ui-bar{
-	background-color: #7ed2ec;
-}
+	.header >img{
+		position: absolute;
+		top: 5px;
+		left: 60px;
+	}
+
 
 .ui-content{
 	cursor: pointer;
@@ -25,14 +26,38 @@ background-color: #7ed2ec;
 		text-align: center;
 	}
 
+	.ui-content >p{
+		text-align: center;
+		color: #000;
+		margin: 11px 0px 11px 0px;
+	}
+
+.ligne{
+	height: 0.1em;
+	background-color: #7ed2ec;
+}
+
+.ui-bar{
+	background-color: #7ed2ec;
+}
+
 .container{
+	min-height: 380px;
 	background-color: #fff;
-	background-repeat: no-repeat;
-	background-image: url('../images/plan_2.png');
-	background-position:0%;
-	margin-bottom: 3.75em; 
-	padding: 1em;
+	background: url('../images/background.png') no-repeat 20px 100px;
+    background-attachment: fixed;
+    background-size: 339px 480px;
 	color: #fff;
+}
+
+.content{
+	min-height: 185px;
+	margin-left: 10px;
+
+}
+
+.content >p{
+	color:#7ed2ec;	
 }
 
 .compteur{
@@ -43,10 +68,10 @@ background-color: #7ed2ec;
 }
 .compteur_header{
 	float: right;
-	color: #fff;
+	color: #7ed2ec;
 	padding: 4px;
 	margin: 8px;
-	background-color: #7ed2ec;
+	background-color: #fff;
 	font-size: 1em;
 }
 
@@ -54,72 +79,69 @@ background-color: #7ed2ec;
 	width: 100%;
 }
 
+.grille{
+	background-color: #7ed2ec;
+	margin: 0em;
+	padding: 0.5em;
+	text-align: center;
+	border-right: 1px dotted #34495e;
+}
+
+	.grille > a{
+		text-decoration: none;
+		color: #fff;
+	}
+
+	.grille > a:visited{
+		color: #fff;
+	}
+
+	.grille:hover{
+		color: #fff;
+		background-color: #2980b9;
+	}
+
 .footer{
-	color: #fff;
+	background-color: #fff !important;
 }
 
-.footer > img{
-	float: left;
-	margin-right: 10px;	
-}
+	.footer > img{
+		float: left;
+		padding: 16px 13px 0px 12px;
+		 -ms-transform: rotate(-45deg); /* IE 9 */
+    	-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
+    	transform: rotate(-45deg);
+	}
 
-/* 
-.velo{
-	background-image: url('../images/velo1.png');
-	background-repeat: no-repeat;
-	background-position:26% top;
-
-}
-
-.roller{
-	background-image: url('../images/roller.png');
-	background-repeat: no-repeat;
-	background-position:26% top;
-
-}
-
-.shoes{
-	background-image: url('../images/shoes.png');
-	background-repeat: no-repeat;
-	background-position:26% 40%;
-
-}
-
-.bus{
-	background-image: url('../images/bus.png');
-	background-repeat: no-repeat;
-	background-position:26% 40%;
-
-}
-
-.carte{
-	height: 300px;
-	background-image: url('../images/map.png');
-	background-repeat: no-repeat;
-
-} */
+	.footer > p{
+		color: #7ed2ec;
+		padding-bottom: 0px;
+	}
 
 
 /*2eme page*/
 
 .microphone{
 	width: 100%;
-	height: 200px;
-	background-color: black;
-}
-
-.main{
-	color: #fff;
+	height: 160px;
+	background-color: #fff;
+	background: url('../images/son.png') no-repeat 50% 50%;
 }
 
 .plan{
-	width: 100%;
 	height: 150px;
-	background-color: black;
+	background: url('../images/map.png') no-repeat;
 }
 
-.ui-grid-b{
-	color: #fff;
+.second .grille{
+	height: 55px;
+}
+.second .grille >a >img{
+	text-align: center;
+}
+
+.headers{
+	background-color:#7ed2ec !important;
 }
 
 /* PAGE TROIS*/
@@ -128,18 +150,23 @@ background-color: #7ed2ec;
 .main > h3{
 	color: #000;
 	text-align: center;
+	margin: 0px;
 }
 
-.two .ui-bar{
-	color:#000;
-	background-color: #fff;
-	border: 1px solid black;
-	
+.groupe .grille > p{
+	height: 80px;
+	margin: 0px;
 }
 
-.two .ui-grid-a {
+.groupe .ui-grid-a {
 	margin: 0 auto;
-	width: 80%;
+	width: 90%;
+}
+
+.groupe .grille{
+	color: #7ed2ec;
+	background-color: #fff;
+	height: 80px;
 }
 
 .share{
