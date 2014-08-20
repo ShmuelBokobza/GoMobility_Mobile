@@ -1,0 +1,22 @@
+{
+  "name": "GoMobility",
+  "version": "0.0.0",
+  "authors": [
+    "samuelboko <samuel.bokobza@gmail.com>"
+  ],
+  "description": "Appli mobile GoMobility",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bower": "*",
+    "jquery-mobile-bower": "~1.4.2"
+  }
+}
