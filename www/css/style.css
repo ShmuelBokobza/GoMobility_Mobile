@@ -1,11 +1,105 @@
 html, body{
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Raleway', sans-serif;
+	background-color: #FFF;
+	cursor: pointer;
+
+}
+
+
+ul > li > a {
+	color: #000;
+}
+
+
+ul {
+	list-style-type: : none !important;
+	text-decoration: none;
+}
+
+.accueil{
+	width: 20%;
+	margin: 0 auto;
+}
+.accueil > a{
+	text-align: center; 
 }
 
 li > a > img {
 	margin-left: 26px !important;
 	margin-top: 10px !important;
 }
+
+.grille-b{
+	height: auto;
+	background-color: #80CDE7;
+	width: 50%;
+	float: left;
+}
+
+	.click-change{
+		background-color: #F2E5D2 !important;
+	}
+
+.grille-c{
+	max-height: 65px;
+	height: auto;
+	background-color: #80CDE7;
+	width: 33%;
+	float: left;
+}
+
+.grille-c >h3{
+	line-height: 20px;
+	color: #fff;
+}
+
+.grille-d{
+	height: auto;
+	background-color: #80CDE7;
+	width: 25%;
+	float: left;
+}
+
+.grid{
+	height: 65px;
+}
+
+
+/* .ui-page-theme-a .ui-btn{
+	background-color: #F2E5D2 !important;
+}
+.ui-page-theme-a .ui-btn:hover{
+	background-color: #80CDE7 !important;
+}
+ */
+#panel > .ui-page-theme-a, .ui-body-inherit{
+	background-color: #F2E5D2 !important;
+}
+
+.proposer{
+	width: 50%;
+	height: auto;
+	background-color: #7FCCE6;
+	float: left;
+}
+	.proposer >img{
+		display: block;
+		margin: 0 auto;
+
+	}
+.choisir{
+	width: 50%;
+	height: auto;
+	background-color: #7FCCE6;
+	float: right;
+}
+	.choisir >img{
+		display: block;
+		margin: 0 auto;
+
+	}
+
+
 
 button{
 	background-color: #7ed2ec !important;
@@ -76,7 +170,7 @@ header{
 }
 
 .container{
-	min-height: 380px;
+	min-height: 340px;
 	background-color: #fff;
 	background: url('../images/background.png') no-repeat 20px 100px;
     background-attachment: fixed;
@@ -91,15 +185,17 @@ header{
 }
 
 .content >p{
-	color:#7ed2ec;	
+	color:#7ed2ec;
 }
 
 .compteur{
+	float: left;	
 	color: #fff;
 	padding: 4px;
 	background-color: #7ed2ec;
 	font-size: 2em;
 }
+
 .compteur_header{
 	float: right;
 	color: #7ed2ec;
@@ -156,6 +252,17 @@ header{
 	.footer > p{
 		color: #7ed2ec;
 		padding-bottom: 0px;
+	}
+
+	.partage{
+		width: 80%;
+		height: 26px;
+		margin: 0 auto;
+		background-color: #80CDE7 ! important;
+	}
+	.partage >a{
+		color: #fff;
+		margin-left: 40%;
 	}
 
 
@@ -217,6 +324,7 @@ header{
 
 /* PAGE 4*/
 .avis{
+	float: left;
 	width: 80%;
 	height: auto;
 	margin: 0 auto;
@@ -262,12 +370,13 @@ li > a{
 	height: 65px;
 	float: left;
 	margin-bottom: 0px;
+	padding-left: 10px;
 	font-size: 1.5em !important;
 	color: #2ecc71;
 }
 
 .vert > em{
-	font-size: 0.5em !important;
+	font-size: 0.7em !important;
 	
 }
 
@@ -278,9 +387,10 @@ li > a{
 /*SOCIAL*/
 
 .social{
-	width: 80%;
+	width: 250px;
+	height: 60px;
 	margin: 0 auto;
-	border-radius: 0px;
+	border-radius: 8px;
 }
 
 .email{
