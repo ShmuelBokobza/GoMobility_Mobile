@@ -3,6 +3,9 @@
 
 	$('.grid').on('click',function () {
 		$(this).toggleClass("click-change");
+	});		
+	$('.panell').on('click',function () {
+		$(this).toggleClass("click-change");
 	});	
 	$('.proposer').on('click',function () {
 		$('.proposer').toggleClass("click-change");

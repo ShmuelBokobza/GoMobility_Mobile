@@ -16,6 +16,10 @@ ul {
 	text-decoration: none;
 }
 
+#panel > ul > li{
+	background-color: red;
+}
+
 .accueil{
 	width: 20%;
 	margin: 0 auto;
@@ -29,6 +33,13 @@ li > a > img {
 	margin-top: 10px !important;
 }
 
+.grille-a{
+	height: auto;
+	background-color: #80CDE7;
+	width: 100%;
+	float: left;
+	margin-bottom: 10px; 
+}
 .grille-b{
 	height: auto;
 	background-color: #80CDE7;
@@ -72,8 +83,8 @@ li > a > img {
 	background-color: #80CDE7 !important;
 }
  */
-#panel > .ui-page-theme-a, .ui-body-inherit{
-	background-color: #F2E5D2 !important;
+#panel {
+	width: 170px;
 }
 
 .proposer{
